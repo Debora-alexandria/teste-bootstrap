@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animaizinhos - Seu Cantinho de Pets Fofos</title>
+
+    <!-- ✅ Bootstrap CSS Personalizado (Tema Rosa) -->
+    <link rel="stylesheet" href="bootstrap-custom.css">
+
+    <!-- ✅ CSS Principal (Estilo Original Restaurado) -->
+    <link rel="stylesheet" href="main.css">
+
+    <!-- ✅ Ícones Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+</head>
+<body>
+
+    <header>
+        <h1>🐾 Animaizinhos 🐾</h1>
+        <p>Conheça nossos pets mais fofos e adotáveis!</p>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#galeria">Galeria</a></li>
+                <li><a href="#saiba-mais">Saiba Mais</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Seção Início -->
+        <section id="inicio" class="secao">
+            <h2>Bem-vindo ao mundo dos Animaizinhos!</h2>
+            <p>Aqui você encontra os pets mais fofos e cheios de amor para adoção.</p>
+
+            <div class="carousel-container">
+                <div class="manual-carousel">
+                    <div class="carousel-slide active">
+                        <img src="https://tse1.mm.bing.net/th/id/OIP.kQuo7rBJAx4cZPcxoqu56gHaFp?w=655&h=500&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Cachorrinho fofo">
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="https://images.pexels.com/photos/1131552/pexels-photo-1131552.jpeg?cs=srgb&dl=pexels-1131552.jpg&fm=jpg" alt="cachorrinho fofo">
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="https://img.grouponcdn.com/deal/12RQgPStv17MHnfpo8KNKaSBU1W/12-2048x1229/v1/c870x524.jpg" alt="girafinha fofa">
+                    </div>
+                </div>
+                <button class="carousel-btn prev"><</button>
+                <button class="carousel-btn next">></button>
+            </div>
+        </section>
+
+        <!-- Seção Galeria -->
+        <section id="galeria" class="secao">
+            <h2>Galeria de Animaizinhos</h2>
+            <div class="container-galeria" id="galeria-container">
+                <!-- Cards serão inseridos via JavaScript -->
+            </div>
+        </section>
+
+        <!-- Seção Saiba Mais (RESTAURADA - Estilo original com conteúdo rico) -->
+        <section id="saiba-mais" class="secao">
+            <h2>Saiba Mais Sobre Nossa Missão</h2>
+            <div class="container-saiba-mais" style="max-width: 800px; margin: 0 auto; text-align: left;">
+                <p><strong>🐾 Quem Somos</strong><br>
+                Somos uma iniciativa 100% apaixonada por animais, formada por voluntários que acreditam que todo pet merece um lar cheio de amor, carinho e petiscos deliciosos!</p>
+
+                <p><strong>💖 Nossa Missão</strong><br>
+                Conectar pets resgatados, abandonados ou carentes a famílias amorosas que estejam prontas para oferecer um lar para sempre. Acreditamos que a adoção é um ato de amor que transforma vidas — tanto dos pets quanto dos humanos!</p>
+
+                <p><strong>📌 Como Funciona</strong><br>
+                1. Selecionamos os animaizinhos mais fofos e necessitados.<br>
+                2. Você entra em contato, conhece o pet e, se der match, é só amor pra sempre!</p>
+
+                <p><strong>🌈 Por que Adotar?</strong><br>
+                - Você salva uma vida ❤️<br>
+                - Pets adotados são eternamente gratos (e muito fofos!)<br>
+                - Reduz o abandono e superlotação de abrigos<br>
+                - Ganhe um amigo fiel para todas as horas — até nas preguiças de domingo!</p>
+
+                <div style="margin-top: 2rem; padding: 1.5rem; background: #fff; border-radius: 15px; box-shadow: 0 5px 15px rgba(0,0,0,0.05);">
+                    <h3 style="color: #ff6b9d; margin-bottom: 1rem;">📢 Dica Importante!</h3>
+                    <p>Adotar um pet é um compromisso de longo prazo. Certifique-se de que você tem tempo, espaço e recursos para cuidar bem do seu novo amigo. Eles merecem o melhor!</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Contato -->
+        <section id="contato" class="secao">
+            <h2>Entre em Contato</h2>
+            <form id="form-contato">
+                <input type="text" placeholder="Seu nome" required>
+                <input type="email" placeholder="Seu e-mail" required>
+                <textarea placeholder="Sua mensagem" rows="5" required></textarea>
+                <button type="submit">Enviar Mensagem</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Animaizinhos. Todos os direitos reservados. 🐶🐱</p>
+    </footer>
+
+    <!-- ✅ Bootstrap JS (Necessário para futuros componentes ou utilitários) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- ✅ Script Principal (Galeria, Carrossel, Formulário) -->
+    <script src="script.js"></script>
+</body>
+</html>

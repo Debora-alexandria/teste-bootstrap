@@ -1,0 +1,61 @@
+:root {
+    --rosa-claro: #ffc3d5;
+    --rosa-medio: #ff9ec7;
+    --rosa-destaque: #ff6b9d;
+    --rosa-escuro: #d44d7d;
+    --rosa-gradient-inicio: #ffafbd;
+    --rosa-gradient-fim: #ffc3a0;
+    --rosa-texto-escuro: #5a2a4a;
+
+    /* Sobrescreve variáveis do Bootstrap para tema rosa */
+    --bs-primary: var(--rosa-destaque);
+    --bs-primary-rgb: 255, 107, 157;
+    --bs-secondary: var(--rosa-medio);
+    --bs-secondary-rgb: 255, 158, 199;
+    --bs-body-bg: var(--rosa-claro);
+    --bs-body-color: var(--rosa-texto-escuro);
+    --bs-link-color: var(--rosa-destaque);
+    --bs-link-hover-color: var(--rosa-escuro);
+
+    /* Botões */
+    --bs-btn-color: #fff;
+    --bs-btn-bg: var(--rosa-destaque);
+    --bs-btn-border-color: var(--rosa-destaque);
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: var(--rosa-escuro);
+    --bs-btn-hover-border-color: var(--rosa-escuro);
+
+    /* Formulários */
+    --bs-form-control-bg: #fff;
+    --bs-form-control-color: var(--rosa-texto-escuro);
+    --bs-form-control-border-color: var(--rosa-medio);
+    --bs-form-control-focus-border-color: var(--rosa-destaque);
+    --bs-form-control-focus-box-shadow: 0 0 0 0.25rem rgba(255, 107, 157, 0.25);
+
+    /* Cards */
+    --bs-card-bg: #fff;
+    --bs-card-border-color: rgba(0,0,0,.125);
+
+    /* Navbar */
+    --bs-navbar-color: rgba(255, 255, 255, 0.75);
+    --bs-navbar-hover-color: #fff;
+    --bs-navbar-active-color: #fff;
+
+    /* Alertas */
+    --bs-alert-bg: var(--rosa-destaque);
+    --bs-alert-color: #fff;
+    --bs-alert-border-color: var(--rosa-destaque);
+}
+
+/* Classes utilitárias rosa (opcionais, mas úteis) */
+.bg-rosa-claro { background-color: var(--rosa-claro) !important; }
+.bg-rosa-escuro { background-color: var(--rosa-escuro) !important; }
+.text-rosa-destaque { color: var(--rosa-destaque) !important; }
+.btn-rosa-destaque {
+    background-color: var(--rosa-destaque);
+    border: none;
+    color: white;
+}
+.btn-rosa-destaque:hover {
+    background-color: var(--rosa-escuro);
+}
