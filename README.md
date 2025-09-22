@@ -1,0 +1,1 @@
+Site bootstrap com tema animaizinhos, um site fofo e responsivo para exibir pets adotáveis, feito com HTML, CSS, JavaScript e Bootstrap personalizado em tema rosa. Perfeito para ONGs ou abrigos de animais!🩷
